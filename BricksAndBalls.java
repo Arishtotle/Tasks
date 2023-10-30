@@ -13,10 +13,10 @@ class Game {
 	    }
 	}
 
-	// ground
+	
 	for(int j=1;j<N-1;j++) board[N-1][j] = 'g';
 
-	// ball
+	
 	board[N-1][N/2] = 'o';
     }
 
